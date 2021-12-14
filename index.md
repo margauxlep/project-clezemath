@@ -6,20 +6,18 @@ Gun control is one of the most controversial political topics in the United Stat
 
 Analyzing quotes emanating from American newspapers in the Quotebank dataset combined with additional data will help us study how these tragic events influence the media coverage and the political debate. 
 
+## Are quotes about guns correlated to shooting occurences?
+
+insert interactive bar chart with quotes/fatalities over time
+
+## Mass shootings map by reaction score
+
 <iframe src="map.html" width="100%"></iframe>
 
-### Key results
+## What words are used to describe the shootings?
 
-Add top 3 results here
-...
-...
-...
+Margaux
 
-### Research questions
-
-**- How do the occurences of mass shootings in the US influence the debate over firearms?** 
-- What **features** of the shootings (location, number of fatalities, weapon type/legality...) influence most the size of the following media coverage? For example, are shootings in more democrat states creating a larger media coverage and outrage afterwards? We would like to rank the features by influence on this matter.
-- What are the **words** that are most correlated to the occurences of mass shootings? This would give us insight on how people are talking on the topic (is it more about dwelling on the victims or questionning the right to own a gun?).
 
 ### Data used
 
