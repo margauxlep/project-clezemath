@@ -9,6 +9,9 @@ Analyzing quotes emanating from American newspapers in the Quotebank dataset com
 ## Are quotes about guns correlated to shooting occurences?
 
 insert interactive bar chart with quotes/fatalities over time
+insert correlation information
+
+## What features are likely to influence the reaction?
 
 ## Mass shootings map by reaction score
 
