@@ -4,7 +4,7 @@ Gun control is one of the most controversial political topics in the United Stat
 
 Analyzing quotes emanating from American newspapers in the Quotebank dataset combined with additional data will help us study how these tragic events influence the media coverage and the political debate. 
 
-<iframe src="maps/map.html"></iframe>
+<iframe src="map.html"></iframe>
 
 ### Key results
 
