@@ -1,0 +1,735 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_a51a3c7eac2945279f6ee22cdcd4227f {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_a51a3c7eac2945279f6ee22cdcd4227f" ></div>
+        
+</body>
+<script>    
+    
+            var map_a51a3c7eac2945279f6ee22cdcd4227f = L.map(
+                "map_a51a3c7eac2945279f6ee22cdcd4227f",
+                {
+                    center: [38.0, -93.0],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 4,
+                    zoomControl: false,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_2fef887480cc491f8c78d07f7600a11d = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 6, "maxZoom": 6, "minZoom": 4, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_a51a3c7eac2945279f6ee22cdcd4227f);
+        
+    
+            var circle_marker_aff5a7de602e4291b4d89a65b92578a0 = L.circleMarker(
+                [36.095739, -115.171544],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 13.775634567148725, "stroke": true, "weight": 1.5}
+            ).addTo(map_a51a3c7eac2945279f6ee22cdcd4227f);
+        
+    
+            circle_marker_aff5a7de602e4291b4d89a65b92578a0.bindTooltip(
+                `<div>
+                     <h4><b>Las Vegas Strip massacre</h4></b><b>Reaction score: </b>0.69<br>--------------------------------<br><b>Fatalities: </b>58<br><b>Location type: </b>Other<br><b>Weapon type: </b>Automatic<br><b>Legal weapon: </b>Yes<br><b>Gender of shooter: </b>Male<br><b>Race of shooter: </b>White
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_abbc28b68c71425d9464ea4cf9120e55 = L.circleMarker(
+                [28.519718, -81.376777],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 17.96393869630272, "stroke": true, "weight": 1.5}
+            ).addTo(map_a51a3c7eac2945279f6ee22cdcd4227f);
+        
+    
+            circle_marker_abbc28b68c71425d9464ea4cf9120e55.bindTooltip(
+                `<div>
+                     <h4><b>Orlando nightclub massacre</h4></b><b>Reaction score: </b>0.9<br>--------------------------------<br><b>Fatalities: </b>49<br><b>Location type: </b>Other<br><b>Weapon type: </b>Semiautomatic<br><b>Legal weapon: </b>Yes<br><b>Gender of shooter: </b>Male<br><b>Race of shooter: </b>Other
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_34a3f89f5a0746c0a91f9afb94908c45 = L.circleMarker(
+                [29.273282, -98.056488],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6.947037119240862, "stroke": true, "weight": 1.5}
+            ).addTo(map_a51a3c7eac2945279f6ee22cdcd4227f);
+        
+    
+            circle_marker_34a3f89f5a0746c0a91f9afb94908c45.bindTooltip(
+                `<div>
+                     <h4><b>Texas First Baptist Church massacre</h4></b><b>Reaction score: </b>0.35<br>--------------------------------<br><b>Fatalities: </b>26<br><b>Location type: </b>Religious<br><b>Weapon type: </b>Semiautomatic<br><b>Legal weapon: </b>Unknown/TBD<br><b>Gender of shooter: </b>Male<br><b>Race of shooter: </b>White
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_73335bf3b6374003bff5bb951ec517e4 = L.circleMarker(
+                [31.771068, -106.375655],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 11.436819342181327, "stroke": true, "weight": 1.5}
+            ).addTo(map_a51a3c7eac2945279f6ee22cdcd4227f);
+        
+    
+            circle_marker_73335bf3b6374003bff5bb951ec517e4.bindTooltip(
+                `<div>
+                     <h4><b>El Paso Walmart mass shooting</h4></b><b>Reaction score: </b>0.57<br>--------------------------------<br><b>Fatalities: </b>22<br><b>Location type: </b>Workplace<br><b>Weapon type: </b>Semiautomatic<br><b>Legal weapon: </b>Yes<br><b>Gender of shooter: </b>Male<br><b>Race of shooter: </b>White
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_b7bbc6a30aaf4faba6268a771dc97f69 = L.circleMarker(
+                [26.30483, -80.269511],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 16.511877812887892, "stroke": true, "weight": 1.5}
+            ).addTo(map_a51a3c7eac2945279f6ee22cdcd4227f);
+        
+    
+            circle_marker_b7bbc6a30aaf4faba6268a771dc97f69.bindTooltip(
+                `<div>
+                     <h4><b>Marjory Stoneman Douglas High School shooting</h4></b><b>Reaction score: </b>0.83<br>--------------------------------<br><b>Fatalities: </b>17<br><b>Location type: </b>School<br><b>Weapon type: </b>Semiautomatic<br><b>Legal weapon: </b>Yes<br><b>Gender of shooter: </b>Male<br><b>Race of shooter: </b>White
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_b82764cb93f04eb28e2211ea63b64e71 = L.circleMarker(
+                [34.075961, -117.27789],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6.580784902156943, "stroke": true, "weight": 1.5}
+            ).addTo(map_a51a3c7eac2945279f6ee22cdcd4227f);
+        
+    
+            circle_marker_b82764cb93f04eb28e2211ea63b64e71.bindTooltip(
+                `<div>
+                     <h4><b>San Bernardino mass shooting</h4></b><b>Reaction score: </b>0.33<br>--------------------------------<br><b>Fatalities: </b>14<br><b>Location type: </b>Workplace<br><b>Weapon type: </b>Assault<br><b>Legal weapon: </b>Yes<br><b>Gender of shooter: </b>Male & Female<br><b>Race of shooter: </b>Other
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_87bf9da78f0d44e8b5426ab36f5b6a98 = L.circleMarker(
+                [36.75442, -76.060378],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4.996033417508096, "stroke": true, "weight": 1.5}
+            ).addTo(map_a51a3c7eac2945279f6ee22cdcd4227f);
+        
+    
+            circle_marker_87bf9da78f0d44e8b5426ab36f5b6a98.bindTooltip(
+                `<div>
+                     <h4><b>Virginia Beach municipal building shooting</h4></b><b>Reaction score: </b>0.25<br>--------------------------------<br><b>Fatalities: </b>12<br><b>Location type: </b>Workplace<br><b>Weapon type: </b>Handgun<br><b>Legal weapon: </b>Yes<br><b>Gender of shooter: </b>Male<br><b>Race of shooter: </b>Black
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_c2e7972c0a664f92b6bb1fca76fa4d73 = L.circleMarker(
+                [34.176946, -118.874793],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5.04434651107223, "stroke": true, "weight": 1.5}
+            ).addTo(map_a51a3c7eac2945279f6ee22cdcd4227f);
+        
+    
+            circle_marker_c2e7972c0a664f92b6bb1fca76fa4d73.bindTooltip(
+                `<div>
+                     <h4><b>Thousand Oaks nightclub shooting</h4></b><b>Reaction score: </b>0.25<br>--------------------------------<br><b>Fatalities: </b>12<br><b>Location type: </b>Other<br><b>Weapon type: </b>Semiautomatic<br><b>Legal weapon: </b>Yes<br><b>Gender of shooter: </b>Male<br><b>Race of shooter: </b>Unknown
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_43e96afd6f43409ebcf8fe6ef2e78f23 = L.circleMarker(
+                [40.443898, -79.921398],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5.046734967766079, "stroke": true, "weight": 1.5}
+            ).addTo(map_a51a3c7eac2945279f6ee22cdcd4227f);
+        
+    
+            circle_marker_43e96afd6f43409ebcf8fe6ef2e78f23.bindTooltip(
+                `<div>
+                     <h4><b>Tree of Life synagogue shooting</h4></b><b>Reaction score: </b>0.25<br>--------------------------------<br><b>Fatalities: </b>11<br><b>Location type: </b>Religious<br><b>Weapon type: </b>Semiautomatic<br><b>Legal weapon: </b>Yes<br><b>Gender of shooter: </b>Male<br><b>Race of shooter: </b>White
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_d71903ccbdd8498aac42708997c1f6fd = L.circleMarker(
+                [29.392825, -95.141972],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4.671907426889084, "stroke": true, "weight": 1.5}
+            ).addTo(map_a51a3c7eac2945279f6ee22cdcd4227f);
+        
+    
+            circle_marker_d71903ccbdd8498aac42708997c1f6fd.bindTooltip(
+                `<div>
+                     <h4><b>Santa Fe High School shooting</h4></b><b>Reaction score: </b>0.23<br>--------------------------------<br><b>Fatalities: </b>10<br><b>Location type: </b>School<br><b>Weapon type: </b>Other<br><b>Legal weapon: </b>Unknown/TBD<br><b>Gender of shooter: </b>Male<br><b>Race of shooter: </b>White
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_4763248866bc4283906ba18163cfcf7d = L.circleMarker(
+                [43.289538, -123.333193],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7.230343575362635, "stroke": true, "weight": 1.5}
+            ).addTo(map_a51a3c7eac2945279f6ee22cdcd4227f);
+        
+    
+            circle_marker_4763248866bc4283906ba18163cfcf7d.bindTooltip(
+                `<div>
+                     <h4><b>Umpqua Community College shooting</h4></b><b>Reaction score: </b>0.36<br>--------------------------------<br><b>Fatalities: </b>9<br><b>Location type: </b>School<br><b>Weapon type: </b>Other<br><b>Legal weapon: </b>Yes<br><b>Gender of shooter: </b>Male<br><b>Race of shooter: </b>Other
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_d163bd081af843599320f1c5cbf50c65 = L.circleMarker(
+                [39.757312, -84.184947],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9.256112990551772, "stroke": true, "weight": 1.5}
+            ).addTo(map_a51a3c7eac2945279f6ee22cdcd4227f);
+        
+    
+            circle_marker_d163bd081af843599320f1c5cbf50c65.bindTooltip(
+                `<div>
+                     <h4><b>Dayton entertainment district shooting</h4></b><b>Reaction score: </b>0.46<br>--------------------------------<br><b>Fatalities: </b>9<br><b>Location type: </b>Other<br><b>Weapon type: </b>Semiautomatic<br><b>Legal weapon: </b>Yes<br><b>Gender of shooter: </b>Male<br><b>Race of shooter: </b>White
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_6e3755f8a18245b69905c0bf2879f8bf = L.circleMarker(
+                [32.788387, -79.933143],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7.347346774133003, "stroke": true, "weight": 1.5}
+            ).addTo(map_a51a3c7eac2945279f6ee22cdcd4227f);
+        
+    
+            circle_marker_6e3755f8a18245b69905c0bf2879f8bf.bindTooltip(
+                `<div>
+                     <h4><b>Charleston Church Shooting</h4></b><b>Reaction score: </b>0.37<br>--------------------------------<br><b>Fatalities: </b>9<br><b>Location type: </b>Religious<br><b>Weapon type: </b>Handgun<br><b>Legal weapon: </b>Yes<br><b>Gender of shooter: </b>Male<br><b>Race of shooter: </b>White
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_e4ffcf891e1d49578e290205d724a4e6 = L.circleMarker(
+                [31.925974, -102.2796],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5.274915695925634, "stroke": true, "weight": 1.5}
+            ).addTo(map_a51a3c7eac2945279f6ee22cdcd4227f);
+        
+    
+            circle_marker_e4ffcf891e1d49578e290205d724a4e6.bindTooltip(
+                `<div>
+                     <h4><b>Odessa-Midland shooting spree</h4></b><b>Reaction score: </b>0.26<br>--------------------------------<br><b>Fatalities: </b>7<br><b>Location type: </b>Other<br><b>Weapon type: </b>Semiautomatic<br><b>Legal weapon: </b>Unknown/TBD<br><b>Gender of shooter: </b>Male<br><b>Race of shooter: </b>White
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_71743510bf014b5495babf51d58097f5 = L.circleMarker(
+                [42.236689, -85.674795],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2.4371676518882035, "stroke": true, "weight": 1.5}
+            ).addTo(map_a51a3c7eac2945279f6ee22cdcd4227f);
+        
+    
+            circle_marker_71743510bf014b5495babf51d58097f5.bindTooltip(
+                `<div>
+                     <h4><b>Kalamazoo shooting spree</h4></b><b>Reaction score: </b>0.12<br>--------------------------------<br><b>Fatalities: </b>6<br><b>Location type: </b>Other<br><b>Weapon type: </b>Semiautomatic<br><b>Legal weapon: </b>Yes<br><b>Gender of shooter: </b>Male<br><b>Race of shooter: </b>White
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_e6cc6f7788c647efb50dd6b1d0242646 = L.circleMarker(
+                [43.044511, -87.962537],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1.6725562054409977, "stroke": true, "weight": 1.5}
+            ).addTo(map_a51a3c7eac2945279f6ee22cdcd4227f);
+        
+    
+            circle_marker_e6cc6f7788c647efb50dd6b1d0242646.bindTooltip(
+                `<div>
+                     <h4><b>Molson Coors shooting</h4></b><b>Reaction score: </b>0.08<br>--------------------------------<br><b>Fatalities: </b>5<br><b>Location type: </b>Workplace<br><b>Weapon type: </b>Semiautomatic<br><b>Legal weapon: </b>Unknown/TBD<br><b>Gender of shooter: </b>Male<br><b>Race of shooter: </b>Black
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_1e433baa47d64720a5e40ded2d29f96c = L.circleMarker(
+                [28.580295, -81.294086],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3.13538724634597, "stroke": true, "weight": 1.5}
+            ).addTo(map_a51a3c7eac2945279f6ee22cdcd4227f);
+        
+    
+            circle_marker_1e433baa47d64720a5e40ded2d29f96c.bindTooltip(
+                `<div>
+                     <h4><b>Florida awning manufacturer shooting</h4></b><b>Reaction score: </b>0.16<br>--------------------------------<br><b>Fatalities: </b>5<br><b>Location type: </b>Workplace<br><b>Weapon type: </b>Semiautomatic<br><b>Legal weapon: </b>Unknown/TBD<br><b>Gender of shooter: </b>Male<br><b>Race of shooter: </b>Unknown
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_48531652e0c04fbeb2916edc10ed8516 = L.circleMarker(
+                [26.072751, -80.143382],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8.3054858793368, "stroke": true, "weight": 1.5}
+            ).addTo(map_a51a3c7eac2945279f6ee22cdcd4227f);
+        
+    
+            circle_marker_48531652e0c04fbeb2916edc10ed8516.bindTooltip(
+                `<div>
+                     <h4><b>Fort Lauderdale airport shooting</h4></b><b>Reaction score: </b>0.42<br>--------------------------------<br><b>Fatalities: </b>5<br><b>Location type: </b>Airport<br><b>Weapon type: </b>Semiautomatic<br><b>Legal weapon: </b>Yes<br><b>Gender of shooter: </b>Male<br><b>Race of shooter: </b>Latino
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_c1390b32908d4538a72aac1dafb2c0d4 = L.circleMarker(
+                [48.461367, -122.337918],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4.032475309845178, "stroke": true, "weight": 1.5}
+            ).addTo(map_a51a3c7eac2945279f6ee22cdcd4227f);
+        
+    
+            circle_marker_c1390b32908d4538a72aac1dafb2c0d4.bindTooltip(
+                `<div>
+                     <h4><b>Cascade Mall shooting</h4></b><b>Reaction score: </b>0.2<br>--------------------------------<br><b>Fatalities: </b>5<br><b>Location type: </b>Other<br><b>Weapon type: </b>Other<br><b>Legal weapon: </b>Unknown/TBD<br><b>Gender of shooter: </b>Male<br><b>Race of shooter: </b>Unknown
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_b0221ef7cc054b0f9b3432fbe311c94e = L.circleMarker(
+                [32.7801052, -96.8000082],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2.8514078971853025, "stroke": true, "weight": 1.5}
+            ).addTo(map_a51a3c7eac2945279f6ee22cdcd4227f);
+        
+    
+            circle_marker_b0221ef7cc054b0f9b3432fbe311c94e.bindTooltip(
+                `<div>
+                     <h4><b>Dallas police shooting</h4></b><b>Reaction score: </b>0.14<br>--------------------------------<br><b>Fatalities: </b>5<br><b>Location type: </b>Other<br><b>Weapon type: </b>Semiautomatic<br><b>Legal weapon: </b>Yes<br><b>Gender of shooter: </b>Male<br><b>Race of shooter: </b>Black
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_b7ed6a8514304dc0b3407d6bea28a78c = L.circleMarker(
+                [38.994548, -76.543657],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3.294519264772072, "stroke": true, "weight": 1.5}
+            ).addTo(map_a51a3c7eac2945279f6ee22cdcd4227f);
+        
+    
+            circle_marker_b7ed6a8514304dc0b3407d6bea28a78c.bindTooltip(
+                `<div>
+                     <h4><b>Capital Gazette shooting</h4></b><b>Reaction score: </b>0.16<br>--------------------------------<br><b>Fatalities: </b>5<br><b>Location type: </b>Workplace<br><b>Weapon type: </b>Other<br><b>Legal weapon: </b>Yes<br><b>Gender of shooter: </b>Male<br><b>Race of shooter: </b>White
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_22478c4bb2db4f45bd1b01738c5eabfd = L.circleMarker(
+                [41.753725, -88.331057],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8.423746290937276, "stroke": true, "weight": 1.5}
+            ).addTo(map_a51a3c7eac2945279f6ee22cdcd4227f);
+        
+    
+            circle_marker_22478c4bb2db4f45bd1b01738c5eabfd.bindTooltip(
+                `<div>
+                     <h4><b>Harry Pratt Co. warehouse shooting</h4></b><b>Reaction score: </b>0.42<br>--------------------------------<br><b>Fatalities: </b>5<br><b>Location type: </b>Workplace<br><b>Weapon type: </b>Handgun<br><b>Legal weapon: </b>No<br><b>Gender of shooter: </b>Male<br><b>Race of shooter: </b>Black
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_45491e2a39374418a931d76e47445dd2 = L.circleMarker(
+                [35.349388, -118.916335],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 0.0768669505480455, "stroke": true, "weight": 1.5}
+            ).addTo(map_a51a3c7eac2945279f6ee22cdcd4227f);
+        
+    
+            circle_marker_45491e2a39374418a931d76e47445dd2.bindTooltip(
+                `<div>
+                     <h4><b>T&T Trucking shooting</h4></b><b>Reaction score: </b>0.0<br>--------------------------------<br><b>Fatalities: </b>5<br><b>Location type: </b>Workplace<br><b>Weapon type: </b>Handgun<br><b>Legal weapon: </b>Yes<br><b>Gender of shooter: </b>Male<br><b>Race of shooter: </b>Latino
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_186ea5f6ef234d2db524a32341a8f078 = L.circleMarker(
+                [35.047157, -85.311819],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4.9499707875401695, "stroke": true, "weight": 1.5}
+            ).addTo(map_a51a3c7eac2945279f6ee22cdcd4227f);
+        
+    
+            circle_marker_186ea5f6ef234d2db524a32341a8f078.bindTooltip(
+                `<div>
+                     <h4><b>Chattanooga military recruitment center</h4></b><b>Reaction score: </b>0.25<br>--------------------------------<br><b>Fatalities: </b>5<br><b>Location type: </b>Military<br><b>Weapon type: </b>Assault<br><b>Legal weapon: </b>Yes<br><b>Gender of shooter: </b>Male<br><b>Race of shooter: </b>Other
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_dc71685e18804510adbadd6a4093c7a8 = L.circleMarker(
+                [27.471043, -81.45847],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3.0662858656681182, "stroke": true, "weight": 1.5}
+            ).addTo(map_a51a3c7eac2945279f6ee22cdcd4227f);
+        
+    
+            circle_marker_dc71685e18804510adbadd6a4093c7a8.bindTooltip(
+                `<div>
+                     <h4><b>SunTrust bank shooting</h4></b><b>Reaction score: </b>0.15<br>--------------------------------<br><b>Fatalities: </b>5<br><b>Location type: </b>Workplace<br><b>Weapon type: </b>Handgun<br><b>Legal weapon: </b>Yes<br><b>Gender of shooter: </b>Male<br><b>Race of shooter: </b>White
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_7d40194cda23411fa3a1ff4e44d031d6 = L.circleMarker(
+                [40.018759, -122.393089],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3.1088860069881057, "stroke": true, "weight": 1.5}
+            ).addTo(map_a51a3c7eac2945279f6ee22cdcd4227f);
+        
+    
+            circle_marker_7d40194cda23411fa3a1ff4e44d031d6.bindTooltip(
+                `<div>
+                     <h4><b>Rancho Tehama shooting spree</h4></b><b>Reaction score: </b>0.16<br>--------------------------------<br><b>Fatalities: </b>5<br><b>Location type: </b>Other<br><b>Weapon type: </b>Semiautomatic<br><b>Legal weapon: </b>No<br><b>Gender of shooter: </b>Male<br><b>Race of shooter: </b>White
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_09ded9f087c5450faf9e51ab14b0cb59 = L.circleMarker(
+                [37.210432, -93.23686],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3.124050095524445, "stroke": true, "weight": 1.5}
+            ).addTo(map_a51a3c7eac2945279f6ee22cdcd4227f);
+        
+    
+            circle_marker_09ded9f087c5450faf9e51ab14b0cb59.bindTooltip(
+                `<div>
+                     <h4><b>Springfield convenience store shooting</h4></b><b>Reaction score: </b>0.16<br>--------------------------------<br><b>Fatalities: </b>4<br><b>Location type: </b>Workplace<br><b>Weapon type: </b>Other<br><b>Legal weapon: </b>Unknown/TBD<br><b>Gender of shooter: </b>Male<br><b>Race of shooter: </b>Unknown
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_743e469a17434e678035b2a54eef4caf = L.circleMarker(
+                [40.707363, -74.083609],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4.517877687429921, "stroke": true, "weight": 1.5}
+            ).addTo(map_a51a3c7eac2945279f6ee22cdcd4227f);
+        
+    
+            circle_marker_743e469a17434e678035b2a54eef4caf.bindTooltip(
+                `<div>
+                     <h4><b>Jersey City kosher market shooting</h4></b><b>Reaction score: </b>0.23<br>--------------------------------<br><b>Fatalities: </b>4<br><b>Location type: </b>Other<br><b>Weapon type: </b>Other<br><b>Legal weapon: </b>Unknown/TBD<br><b>Gender of shooter: </b>Male & Female<br><b>Race of shooter: </b>Black
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_bcdc4408a6314767be8e3f5eb0b2f525 = L.circleMarker(
+                [40.052151, -79.389166],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2.8037525812305097, "stroke": true, "weight": 1.5}
+            ).addTo(map_a51a3c7eac2945279f6ee22cdcd4227f);
+        
+    
+            circle_marker_bcdc4408a6314767be8e3f5eb0b2f525.bindTooltip(
+                `<div>
+                     <h4><b>Pennsylvania carwash shooting</h4></b><b>Reaction score: </b>0.14<br>--------------------------------<br><b>Fatalities: </b>4<br><b>Location type: </b>Other<br><b>Weapon type: </b>Semiautomatic<br><b>Legal weapon: </b>Unknown/TBD<br><b>Gender of shooter: </b>Male<br><b>Race of shooter: </b>White
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_c4fe0677e3b94ebd9fc7a7b816fc8987 = L.circleMarker(
+                [36.052521, -86.616944],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2.163993492291865, "stroke": true, "weight": 1.5}
+            ).addTo(map_a51a3c7eac2945279f6ee22cdcd4227f);
+        
+    
+            circle_marker_c4fe0677e3b94ebd9fc7a7b816fc8987.bindTooltip(
+                `<div>
+                     <h4><b>Waffle House shooting</h4></b><b>Reaction score: </b>0.11<br>--------------------------------<br><b>Fatalities: </b>4<br><b>Location type: </b>Other<br><b>Weapon type: </b>Semiautomatic<br><b>Legal weapon: </b>Yes<br><b>Gender of shooter: </b>Male<br><b>Race of shooter: </b>White
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_9c8d1b6633f14db19aa614b2391ef205 = L.circleMarker(
+                [39.452189, -76.309988],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3.3195943991483725, "stroke": true, "weight": 1.5}
+            ).addTo(map_a51a3c7eac2945279f6ee22cdcd4227f);
+        
+    
+            circle_marker_9c8d1b6633f14db19aa614b2391ef205.bindTooltip(
+                `<div>
+                     <h4><b>Edgewood businees park shooting</h4></b><b>Reaction score: </b>0.17<br>--------------------------------<br><b>Fatalities: </b>3<br><b>Location type: </b>Workplace<br><b>Weapon type: </b>Handgun<br><b>Legal weapon: </b>No<br><b>Gender of shooter: </b>Male<br><b>Race of shooter: </b>Black
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_2bebefc017fe4dabb873e54dd12c60eb = L.circleMarker(
+                [38.135992, -97.425145],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5.271882391215726, "stroke": true, "weight": 1.5}
+            ).addTo(map_a51a3c7eac2945279f6ee22cdcd4227f);
+        
+    
+            circle_marker_2bebefc017fe4dabb873e54dd12c60eb.bindTooltip(
+                `<div>
+                     <h4><b>Excel Industries mass shooting</h4></b><b>Reaction score: </b>0.26<br>--------------------------------<br><b>Fatalities: </b>3<br><b>Location type: </b>Workplace<br><b>Weapon type: </b>Semiautomatic<br><b>Legal weapon: </b>Yes<br><b>Gender of shooter: </b>Male<br><b>Race of shooter: </b>Black
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_c2c66b0813904865afc0e67bb14add91 = L.circleMarker(
+                [30.364707, -87.288567],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4.987185836611623, "stroke": true, "weight": 1.5}
+            ).addTo(map_a51a3c7eac2945279f6ee22cdcd4227f);
+        
+    
+            circle_marker_c2c66b0813904865afc0e67bb14add91.bindTooltip(
+                `<div>
+                     <h4><b>Pensacola Naval base shooting</h4></b><b>Reaction score: </b>0.25<br>--------------------------------<br><b>Fatalities: </b>3<br><b>Location type: </b>Military<br><b>Weapon type: </b>Semiautomatic<br><b>Legal weapon: </b>Unknown/TBD<br><b>Gender of shooter: </b>Male<br><b>Race of shooter: </b>Unknown
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_e2d64fb8e4104ccc829926cc8e0176bc = L.circleMarker(
+                [36.997191, -121.584819],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1.6725910005006583, "stroke": true, "weight": 1.5}
+            ).addTo(map_a51a3c7eac2945279f6ee22cdcd4227f);
+        
+    
+            circle_marker_e2d64fb8e4104ccc829926cc8e0176bc.bindTooltip(
+                `<div>
+                     <h4><b>Gilroy garlic festival shooting</h4></b><b>Reaction score: </b>0.08<br>--------------------------------<br><b>Fatalities: </b>3<br><b>Location type: </b>Other<br><b>Weapon type: </b>Semiautomatic<br><b>Legal weapon: </b>Yes<br><b>Gender of shooter: </b>Male<br><b>Race of shooter: </b>Unknown
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_0bfbd1b8c9db4314aeb1d081c16ff467 = L.circleMarker(
+                [38.83755, -104.814251],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5.1831989164162975, "stroke": true, "weight": 1.5}
+            ).addTo(map_a51a3c7eac2945279f6ee22cdcd4227f);
+        
+    
+            circle_marker_0bfbd1b8c9db4314aeb1d081c16ff467.bindTooltip(
+                `<div>
+                     <h4><b>Colorado Springs shooting rampage</h4></b><b>Reaction score: </b>0.26<br>--------------------------------<br><b>Fatalities: </b>3<br><b>Location type: </b>Other<br><b>Weapon type: </b>Handgun<br><b>Legal weapon: </b>Yes<br><b>Gender of shooter: </b>Male<br><b>Race of shooter: </b>White
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_796a8bea05b24ea8b90c0bd48651ef37 = L.circleMarker(
+                [38.881031, -104.849057],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2.9015928059474625, "stroke": true, "weight": 1.5}
+            ).addTo(map_a51a3c7eac2945279f6ee22cdcd4227f);
+        
+    
+            circle_marker_796a8bea05b24ea8b90c0bd48651ef37.bindTooltip(
+                `<div>
+                     <h4><b>Planned Parenthood clinic</h4></b><b>Reaction score: </b>0.15<br>--------------------------------<br><b>Fatalities: </b>3<br><b>Location type: </b>Workplace<br><b>Weapon type: </b>Other<br><b>Legal weapon: </b>Unknown/TBD<br><b>Gender of shooter: </b>Male<br><b>Race of shooter: </b>White
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_5307549a821b4faf8ff7702df9e4a836 = L.circleMarker(
+                [40.785142, -77.839411],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2.2779973614956583, "stroke": true, "weight": 1.5}
+            ).addTo(map_a51a3c7eac2945279f6ee22cdcd4227f);
+        
+    
+            circle_marker_5307549a821b4faf8ff7702df9e4a836.bindTooltip(
+                `<div>
+                     <h4><b>Pennsylvania hotel bar shooting</h4></b><b>Reaction score: </b>0.11<br>--------------------------------<br><b>Fatalities: </b>3<br><b>Location type: </b>Other<br><b>Weapon type: </b>Handgun<br><b>Legal weapon: </b>Yes<br><b>Gender of shooter: </b>Male<br><b>Race of shooter: </b>White
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_202bd3a07f404e52bf8a0c4286fb0665 = L.circleMarker(
+                [41.847667, -87.622009],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8.835724355430722, "stroke": true, "weight": 1.5}
+            ).addTo(map_a51a3c7eac2945279f6ee22cdcd4227f);
+        
+    
+            circle_marker_202bd3a07f404e52bf8a0c4286fb0665.bindTooltip(
+                `<div>
+                     <h4><b>Mercy Hospital shooting</h4></b><b>Reaction score: </b>0.44<br>--------------------------------<br><b>Fatalities: </b>3<br><b>Location type: </b>Workplace<br><b>Weapon type: </b>Semiautomatic<br><b>Legal weapon: </b>Unknown/TBD<br><b>Gender of shooter: </b>Male<br><b>Race of shooter: </b>Latino
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_f310b318e4634b5d9a7e29e0f2e9d0c7 = L.circleMarker(
+                [39.101981, -84.511782],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3.107745507344026, "stroke": true, "weight": 1.5}
+            ).addTo(map_a51a3c7eac2945279f6ee22cdcd4227f);
+        
+    
+            circle_marker_f310b318e4634b5d9a7e29e0f2e9d0c7.bindTooltip(
+                `<div>
+                     <h4><b>Fifth Third Center shooting</h4></b><b>Reaction score: </b>0.16<br>--------------------------------<br><b>Fatalities: </b>3<br><b>Location type: </b>Workplace<br><b>Weapon type: </b>Semiautomatic<br><b>Legal weapon: </b>Yes<br><b>Gender of shooter: </b>Male<br><b>Race of shooter: </b>Latino
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_2c6b0c93791f461f9a552a9d10b2d0ad = L.circleMarker(
+                [39.455658, -76.208485],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2.919624003619745, "stroke": true, "weight": 1.5}
+            ).addTo(map_a51a3c7eac2945279f6ee22cdcd4227f);
+        
+    
+            circle_marker_2c6b0c93791f461f9a552a9d10b2d0ad.bindTooltip(
+                `<div>
+                     <h4><b>Rite Aid warehouse shooting</h4></b><b>Reaction score: </b>0.15<br>--------------------------------<br><b>Fatalities: </b>3<br><b>Location type: </b>Workplace<br><b>Weapon type: </b>Semiautomatic<br><b>Legal weapon: </b>Yes<br><b>Gender of shooter: </b>Female<br><b>Race of shooter: </b>Black
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_df26d131743245fd99defe595d315521 = L.circleMarker(
+                [39.876374, -104.986132],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2.9799150427241488, "stroke": true, "weight": 1.5}
+            ).addTo(map_a51a3c7eac2945279f6ee22cdcd4227f);
+        
+    
+            circle_marker_df26d131743245fd99defe595d315521.bindTooltip(
+                `<div>
+                     <h4><b>Walmart shooting in suburban Denver</h4></b><b>Reaction score: </b>0.15<br>--------------------------------<br><b>Fatalities: </b>3<br><b>Location type: </b>Other<br><b>Weapon type: </b>Semiautomatic<br><b>Legal weapon: </b>Unknown/TBD<br><b>Gender of shooter: </b>Male<br><b>Race of shooter: </b>White
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_8bf44f322b1f48ba9d0a2ebb23e5d16b = L.circleMarker(
+                [30.433601, -91.081403],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2.926074748297341, "stroke": true, "weight": 1.5}
+            ).addTo(map_a51a3c7eac2945279f6ee22cdcd4227f);
+        
+    
+            circle_marker_8bf44f322b1f48ba9d0a2ebb23e5d16b.bindTooltip(
+                `<div>
+                     <h4><b>Baton Rouge police shooting</h4></b><b>Reaction score: </b>0.15<br>--------------------------------<br><b>Fatalities: </b>3<br><b>Location type: </b>Other<br><b>Weapon type: </b>Semiautomatic<br><b>Legal weapon: </b>Unknown/TBD<br><b>Gender of shooter: </b>Male<br><b>Race of shooter: </b>Black
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_1a635e8ef9ff4033b93be6823e3d5e83 = L.circleMarker(
+                [38.392496, -122.366528],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 20.0, "stroke": true, "weight": 1.5}
+            ).addTo(map_a51a3c7eac2945279f6ee22cdcd4227f);
+        
+    
+            circle_marker_1a635e8ef9ff4033b93be6823e3d5e83.bindTooltip(
+                `<div>
+                     <h4><b>Yountville veterans home shooting</h4></b><b>Reaction score: </b>1.0<br>--------------------------------<br><b>Fatalities: </b>3<br><b>Location type: </b>Workplace<br><b>Weapon type: </b>Semiautomatic<br><b>Legal weapon: </b>Yes<br><b>Gender of shooter: </b>Male<br><b>Race of shooter: </b>Asian
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_e3b59f6f25f2448eb2103161d43c0654 = L.circleMarker(
+                [36.746378, -119.800319],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 18.85097391998742, "stroke": true, "weight": 1.5}
+            ).addTo(map_a51a3c7eac2945279f6ee22cdcd4227f);
+        
+    
+            circle_marker_e3b59f6f25f2448eb2103161d43c0654.bindTooltip(
+                `<div>
+                     <h4><b>Fresno downtown shooting</h4></b><b>Reaction score: </b>0.94<br>--------------------------------<br><b>Fatalities: </b>3<br><b>Location type: </b>Other<br><b>Weapon type: </b>Handgun<br><b>Legal weapon: </b>Unknown/TBD<br><b>Gender of shooter: </b>Male<br><b>Race of shooter: </b>Black
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_5ea59c24341140f0a625ed8480cd06d9 = L.circleMarker(
+                [39.959034, -82.596508],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2.84255526785599, "stroke": true, "weight": 1.5}
+            ).addTo(map_a51a3c7eac2945279f6ee22cdcd4227f);
+        
+    
+            circle_marker_5ea59c24341140f0a625ed8480cd06d9.bindTooltip(
+                `<div>
+                     <h4><b>Rural Ohio nursing home shooting</h4></b><b>Reaction score: </b>0.14<br>--------------------------------<br><b>Fatalities: </b>3<br><b>Location type: </b>Workplace<br><b>Weapon type: </b>Handgun<br><b>Legal weapon: </b>Unknown/TBD<br><b>Gender of shooter: </b>Male<br><b>Race of shooter: </b>White
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_3be37246e8ed41aa90a96d2395ea59a7 = L.circleMarker(
+                [41.529546, -75.94722],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 1.5}
+            ).addTo(map_a51a3c7eac2945279f6ee22cdcd4227f);
+        
+    
+            circle_marker_3be37246e8ed41aa90a96d2395ea59a7.bindTooltip(
+                `<div>
+                     <h4><b>Pennsylvania supermarket shooting</h4></b><b>Reaction score: </b>0.0<br>--------------------------------<br><b>Fatalities: </b>3<br><b>Location type: </b>Workplace<br><b>Weapon type: </b>Other<br><b>Legal weapon: </b>Unknown/TBD<br><b>Gender of shooter: </b>Male<br><b>Race of shooter: </b>White
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_0fead4842e2a4a22841743338d16e830 = L.circleMarker(
+                [37.765947, -122.406087],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3.2006012014802723, "stroke": true, "weight": 1.5}
+            ).addTo(map_a51a3c7eac2945279f6ee22cdcd4227f);
+        
+    
+            circle_marker_0fead4842e2a4a22841743338d16e830.bindTooltip(
+                `<div>
+                     <h4><b>San Francisco UPS shooting</h4></b><b>Reaction score: </b>0.16<br>--------------------------------<br><b>Fatalities: </b>3<br><b>Location type: </b>Workplace<br><b>Weapon type: </b>Handgun<br><b>Legal weapon: </b>No<br><b>Gender of shooter: </b>Male<br><b>Race of shooter: </b>Asian
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_4e4fc5f0a40d4bcba98fdf8c06953cc0 = L.circleMarker(
+                [44.204124, -88.467541],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 11.445102034025211, "stroke": true, "weight": 1.5}
+            ).addTo(map_a51a3c7eac2945279f6ee22cdcd4227f);
+        
+    
+            circle_marker_4e4fc5f0a40d4bcba98fdf8c06953cc0.bindTooltip(
+                `<div>
+                     <h4><b>Trestle Trail bridge shooting</h4></b><b>Reaction score: </b>0.57<br>--------------------------------<br><b>Fatalities: </b>3<br><b>Location type: </b>Other<br><b>Weapon type: </b>Handgun<br><b>Legal weapon: </b>Yes<br><b>Gender of shooter: </b>Male<br><b>Race of shooter: </b>Latino
+                 </div>`,
+                {"sticky": true}
+            );
+        
+</script>
