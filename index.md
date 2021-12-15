@@ -1,7 +1,6 @@
 # Firearms Debate in the US and its Relationship to Mass Shootings
 
-<p style='color:#fcba03'>Gun control is one of the most controversial political topics in the United States. Being one of the world’s most liberal countries in the world, freedom one of its core values. But gun ownership and the need for regulation can seem incompatible at times. </p>
-<span style="color:blue">some *blue* text</span>.
+Gun control is one of the most controversial political topics in the United States. Being one of the world’s most liberal countries in the world, freedom one of its core values. But gun ownership and the need for regulation can seem incompatible at times.
 
 **How is this political debate linked to the occurrences of mass shootings? This is what we intend to find out.**
 
@@ -11,6 +10,7 @@ Analyzing quotes emanating from American newspapers in the Quotebank dataset com
 
 ## Media coverage: are quotes about guns related to the occurence of mass shooting?
 
+We selectd qotes....LINK
 Between 2015 and 2020, 48 shootings were registered, killing ??? people and injuring ???. In the same timeframe, we collected ??? quotes about guns and shootings in general. The first thing we wanted to see is if the occurences of these quotes was linked to the events.
 
 insert interactive bar chart with quotes/fatalities over time
@@ -29,6 +29,11 @@ The following map shows all 48 shootings by location. The larger the circle, the
 
 List of features and show plots about average reaction score by feature
 
+## Who speaks the most about guns?
+
+Clement.
+
+## How we selected the quotes
 ----
 
 ## Data used
