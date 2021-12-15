@@ -10,6 +10,8 @@ Analyzing quotes emanating from American newspapers in the Quotebank dataset com
 
 ## Media coverage: are quotes about guns related to the occurence of mass shooting?
 
+**Between 2015 and 2020**, **48 shootings** were registered. As a result, **??? people died and ??? were injured**. In the same timeframe, we collected ??? quotes about guns and shootings in general. The first thing we wanted to see is if the occurences of these quotes was linked to the events.
+
 insert interactive bar chart with quotes/fatalities over time
 insert correlation information
 
@@ -19,6 +21,7 @@ Margaux
 
 ## What shootings generated the most reaction?
 
+The following map shows all 48 shootings by location. The larger the circle, the larger the corresponding media outrage.
 <iframe src="map.html" width="100%" height=500></iframe>
 
 ## What features are likely to influence the reaction?
@@ -27,15 +30,9 @@ List of features and show plots about average reaction score by feature
 
 ----
 
-### Data used
+## Data used
 
 As our goal was to analyse the relationship between mass shootings and _ _talk_ _ about mass shootings we had to use two different datasets. For the shootings, we used the **"Mother Jone's" dataset**, that we got from https://data.world/awram/us-mass-shootings. This dataset gave us basic information (e.g. date, number of fatalities) about each shooting that occured in the USA between 2015 and 2020, adding also some interesting features such as location, age and gender of the shooter, etc. Our other source of data was the **Quotebank data set** [INSERT REF], consisting of over 170 mio of quotes emanating from american newspapers. We focused our research on the time lapse between 2015 and 2020. 
-
-## Mass shootings in the US between 2015 and 2020 
-
-First, we need to know where we stand. **Between 2015 and 2020**, **48 shootings** were registered. Due to these events, **??? people died and ??? were injured**. Here is a map that let us visualise the location and impact of each of the shootings. 
-
-!INSERT map Thomas
 
 ## Media coverage : Do newspapers quote more people talking about firearms and gun violence after a mass shootings ? 
 
