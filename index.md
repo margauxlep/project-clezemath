@@ -34,7 +34,8 @@ List of features and show plots about average reaction score by feature
 Clement.
 
 ## How we selected the quotes
-----
+Firstly, we filtered the Quotebank dataset through the key words "gun", "shooting" and "firearm".
+Once we had noticed that many quotations containing these key words were still unrelated to our topics, we decided to apply a supervised learning method to remove them from our analysis. We manually classified and labelled 1500 quotes to train the chosen Bert model, which was used later on for the target prediction.
 
 ## Data used
 
