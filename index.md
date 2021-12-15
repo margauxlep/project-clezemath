@@ -10,7 +10,7 @@ Analyzing quotes emanating from American newspapers in the Quotebank dataset com
 
 ## Media coverage: are quotes about guns related to the occurence of mass shooting?
 
-**Between 2015 and 2020**, **48 shootings** were registered. As a result, **??? people died and ??? were injured**. In the same timeframe, we collected ??? quotes about guns and shootings in general. The first thing we wanted to see is if the occurences of these quotes was linked to the events.
+Between 2015 and 2020, 48 shootings were registered, killing ??? people and injuring ???. In the same timeframe, we collected ??? quotes about guns and shootings in general. The first thing we wanted to see is if the occurences of these quotes was linked to the events.
 
 insert interactive bar chart with quotes/fatalities over time
 insert correlation information
