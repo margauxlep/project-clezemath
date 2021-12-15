@@ -15,7 +15,7 @@ insert correlation information
 
 ## Mass shootings map by reaction score
 
-<iframe src="map.html" width="100%"></iframe>
+<iframe src="map.html" width="100%" height=500></iframe>
 
 ## What words are used to describe the shootings?
 
