@@ -13,7 +13,8 @@ Analyzing quotes emanating from American newspapers in the Quotebank dataset com
 We selectd qotes....LINK
 Between 2015 and 2020, 48 shootings were registered, killing ??? people and injuring ???. In the same timeframe, we collected ??? quotes about guns and shootings in general. The first thing we wanted to see is if the occurences of these quotes was linked to the events.
 
-insert interactive bar chart with quotes/fatalities over time
+<iframe src="time_fatalities.html" width="100%" height=500></iframe>
+
 insert correlation information
 
 ## What words are used to describe the shootings?
