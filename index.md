@@ -1,8 +1,9 @@
 <head>
+ 
+ <title>ADAAA</title>
+
  <style>
-  
-  <title>ADAAA</title>
-  
+    
   .main-content {max-width: 100%;}
   .large_content {max-width:100%;}
  
