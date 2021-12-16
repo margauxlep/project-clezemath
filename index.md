@@ -13,7 +13,7 @@ Analyzing quotes emanating from American newspapers in the Quotebank dataset com
 We selectd qotes....LINK
 Between 2015 and 2020, 48 shootings were registered, killing ??? people and injuring ???. In the same timeframe, we collected ??? quotes about guns and shootings in general. The first thing we wanted to see is if the occurences of these quotes was linked to the events.
 
-<iframe src="time_fatalities.html" width="100%" height=700></iframe>
+<iframe src="time_fatalities.html" width="100%" height=700 frameBorder="0"></iframe>
 
 insert correlation information
 
@@ -24,7 +24,7 @@ Margaux
 ## What shootings generated the most reaction?
 
 The following map shows all 48 shootings by location. The larger the circle, the larger the corresponding media outrage.
-<iframe src="map.html" width="100%" height=500></iframe>
+<iframe src="map.html" width="100%" height=500 frameBorder="0"></iframe>
 
 ## What features are likely to influence the reaction?
 
