@@ -2,11 +2,11 @@
  <style>
   
   .main-content {
-  max-width: 80%;
+  max-width: 95%;
   }
   
   .large_content {
-  max-width: 100%;
+  max-width: 95%;
   }
  
  </style>
