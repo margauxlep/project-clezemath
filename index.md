@@ -1,6 +1,8 @@
 <head>
  <style>
   
+  <title>ADAAA</title>
+  
   .main-content {
   max-width: 95%;
   }
@@ -20,7 +22,7 @@ Gun control is one of the most controversial political topics in the United Stat
 
 Analyzing quotes emanating from American newspapers in the Quotebank dataset combined with additional data will help us study how these tragic events influence the media coverage and the political debate. 
 
-![](gun.gif)
+![](guns_comic.gif)
 
 ## Media coverage: are quotes about guns related to the occurence of mass shooting?
 
