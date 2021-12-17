@@ -23,9 +23,13 @@ Between 2015 and 2020, 48 shootings were registered, killing 396 people and inju
 
 insert correlation information
 
-## What words were the most used after the shootings?
+## What words were used the most after the shootings?
 
-Margaux
+We tried a machine learning approach to isolate the words that were the most related to the mass shootings. Using random forests, we selected words by features importance. This is what we got : 
+
+[insert image]
+
+even though the results are not very significative, we may be seing some pattern emerging. **Talk about state** and words like '**help**'. 
 
 ## What shootings generated the most reaction?
 
@@ -41,6 +45,8 @@ List of features and show plots about average reaction score by feature
 Clement.
 
 ----
+
+## More on our methods : 
 
 ## How we selected the quotes
 Firstly, we filtered the Quotebank dataset through the key words "gun", "shooting" and "firearm".
@@ -78,14 +84,4 @@ It seams that this particular event has made much more noise then the others and
 
 ## What are the relevant features to predict "media coverage" ? 
 
-(PCA - yet to do)
 
-## Computing the reaction score 
-
-TO FILL 
-
-## Further analysis : Machine Learning based analysis of word occurences
-
-We have conducted some preliminary analysis with our subset of quotes, containing the words 'shoot, gun, firearm'. We have seen that these words are indeed correlated with events of mass shootings.
-
-But now let's "reverse" the analysis, and check **what are the words that are associated the most with the occurences of mass shootings**. 
