@@ -84,6 +84,9 @@ However, these results still give an insight on some things that can trigger a l
 
 In this section we will provide insights about profiles of speakers. As we did before, we will consider only quotes that are linked with the gun debate 10 days following each shooting recorded in the [additional data](https://www.motherjones.com/politics/2012/12/mass-shootings-mother-jones-full-data/). We focused on the 2 main following categories : gender and political party. As we wanted to highlight the polarization of the debate, we kept categories binary. Namely, looking only at male and female genders and Republican and Democratic parties.
 
+![](Party.jpg)
+![](Gender.jpg)
+
 ![](deco2.jpg)
 
 <h1 style="color: #990000;">Conclusion</h1>
