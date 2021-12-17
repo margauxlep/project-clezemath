@@ -8,7 +8,7 @@
   color: #ffffff;
   text-align: center;
   background-color: #870000;
-  /*background-image: url("background.jpg")*/;
+  background-image: url("background.jpg");
   
   @include large {
     padding: 5rem 6rem;
@@ -25,8 +25,6 @@
    
  </style>
 </head>
-
-test
 
 Gun control is one of the most controversial political topics in the United States. Being one of the world’s most liberal countries in the world, freedom one of its core values. But gun ownership and the need for regulation can seem incompatible at times.
 
