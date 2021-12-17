@@ -72,12 +72,17 @@ But what it interesting is that we also wee words related to **law and regulatio
 
 <h1 style="color: #990000;">What shootings generated the most reaction?</h1>
 
+> Shocking that The Times believes a known or suspected terrorist should be able to legally purchase firearms and explosives. (Dianne Feinstein)
+
 For each shooting, we defined a **reaction score**. The reaction score was computed as the **relative increase** between the total number of quotes during the 10 days before the shooting and the total number of quotes during the 10 days after the shooting. Although imperfect, it captures how much more (or less) the media have been talking about guns after the shooting.
 
 The following map shows all 48 shootings by location. **The larger the circle, the larger the corresponding media outrage**. You can hover each point to get extra information about the shooting (location type, weapon type, gender of shooter...).
 <iframe src="map.html" width="100%" height=500 frameBorder="0"></iframe>
 
 <h1 style="color: #990000;">What features are likely to influence the reaction?</h1>
+
+> 91 percent of suspected terrorists who attempted to buy guns in America walked away with the weapon they wanted. (Patrick Murphy)
+
 
 Some shootings made it very clear, **the number of fatalities is not the only factor that influences the amount of reaction generated** by a shooting. Indeed, the most influential shooting according to our reaction score had only 3 fatalities. Differences like the location of the shooting (e.g. School, Religious place, Workplace) and the weapon type can influence the following media outrage, covering and debate.
 
@@ -94,8 +99,7 @@ However, these results still give an insight on some things that can trigger a l
 
 <h1 style="color: #990000;">Who speaks the most about guns?</h1>
 
-> Shocking that The Times believes a known or suspected terrorist should be able to legally purchase firearms and explosives. (Dianne Feinstein)
-> I'm a strong Second Amendment supporter as well, but I believe in responsible gun ownership (Charles Brunner)!
+> I'm a strong Second Amendment supporter as well, but I believe in responsible gun ownership (Charles Brunner)
 
 
 
@@ -108,12 +112,12 @@ In this section we will provide insights about profiles of speakers. As we did b
 We can observe that women are not represented as much as men after shootings. In fact, a huge part of the debate is "invaded" by men. As a result, the debate seems to split equally between democrats and republicans. The media sphere seems to be equally occupied by these two parties after shootings.
 Further analysis has been performed in order to see whether there was a correlation between reaction score and the share of quotes of a specific party on single shootings. It unfortunately turned out to be irrelevant.
 
-![](deco2.jpg)
-
 <h1 style="color: #990000;">Conclusion</h1>
 
 
 With our analysis, we have given a quantitative overview of the **political debate over firearms and gun control in the US**. We have shown that **talk on the matter is related to occurences of mass shootings**, but also that the mediatic reaction for a given shooting is **not proportional to the number of victims**. Our word occurences analysis confirmed our intuition that after a shooting has happened, quotes about it don't only focus on the nature of the event (gun shooting, victims where and when) but also **engages political and legal questions**. On this matter, we saw that public speaking on the matter comprises quite equally Democrats and Republicans. However, even though the subject of the debate is the same, their opinions on the matter may well not be the same ! This may be a good avenue for further inquiries ! 
+
+![](deco2.jpg)
 
 ----
 Thank you for your interest!
