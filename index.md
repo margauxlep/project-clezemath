@@ -26,13 +26,12 @@
   
   h1 {
     font-weight: normal;
-    color: #870000;
   }
    
  </style>
 </head>
 
-TEST Gun control is one of the most controversial political topics in the United States. Being one of the world’s most liberal countries in the world, freedom one of its core values. But gun ownership and the need for regulation can seem incompatible at times.
+Gun control is one of the most controversial political topics in the United States. Being one of the world’s most liberal countries in the world, freedom one of its core values. But gun ownership and the need for regulation can seem incompatible at times.
 
 **How is this political debate linked to the occurrences of mass shootings? This is what we intend to find out.**
 
@@ -40,7 +39,7 @@ TEST Gun control is one of the most controversial political topics in the United
 
 Analyzing quotes emanating from American newspapers in the [Quotebank dataset](https://quotebank.dlab.tools) combined with [additional data](https://www.motherjones.com/politics/2012/12/mass-shootings-mother-jones-full-data/) will help us study how these tragic events influence the media coverage and the political debate. 
 
-<h1>Are quotes about guns related to the occurence of mass shootings?</h1>
+<h1 style="color: red;">Are quotes about guns related to the occurence of mass shootings?</h1>
 
 Between 2015 and 2020, 48 shootings were registered, killing 396 people and injuring 895. In the same timeframe, we collected more than 79'000 quotes from American news that were about guns and shootings in general (LINK to how we collected these quotes). The first thing we wanted to see is if the occurences of these quotes was linked to the events.
 
