@@ -35,7 +35,7 @@ Analyzing quotes emanating from American newspapers in the [Quotebank dataset](h
 
 ![](guns_comic.gif)
 
-<span style="color: #870000">## Are quotes about guns related to the occurence of mass shootings?</span>
+## Are quotes about guns related to the occurence of mass shootings?
 
 Between 2015 and 2020, 48 shootings were registered, killing 396 people and injuring 895. In the same timeframe, we collected more than 79'000 quotes from American news that were about guns and shootings in general (LINK to how we collected these quotes). The first thing we wanted to see is if the occurences of these quotes was linked to the events.
 
