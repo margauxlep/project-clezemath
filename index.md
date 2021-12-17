@@ -12,6 +12,8 @@
  </style>
 </head>
 
+<body>
+
 # Firearms Debate in the US and its Relationship to Mass Shootings
 
 Gun control is one of the most controversial political topics in the United States. Being one of the world’s most liberal countries in the world, freedom one of its core values. But gun ownership and the need for regulation can seem incompatible at times.
@@ -95,3 +97,4 @@ TO FILL
 We have conducted some preliminary analysis with our subset of quotes, containing the words 'shoot, gun, firearm'. We have seen that these words are indeed correlated with events of mass shootings.
 
 But now let's "reverse" the analysis, and check **what are the words that are associated the most with the occurences of mass shootings**. 
+</body>
