@@ -31,7 +31,7 @@ Gun control is one of the most controversial political topics in the United Stat
 
 **How is this political debate linked to the occurrences of mass shootings? This is what we intend to find out.**
 
-Analyzing quotes emanating from American newspapers in the Quotebank dataset combined with additional data will help us study how these tragic events influence the media coverage and the political debate. 
+Analyzing quotes emanating from American newspapers in the [Quotebank dataset](https://quotebank.dlab.tools) combined with [additional data](https://www.motherjones.com/politics/2012/12/mass-shootings-mother-jones-full-data/) will help us study how these tragic events influence the media coverage and the political debate. 
 
 ![](guns_comic.gif)
 
