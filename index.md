@@ -54,9 +54,16 @@ The plot seems to make it clear that there is a correlation between the occurenc
 
 We tried a machine learning approach to isolate the words that were the most related to the mass shootings. Using random forests, we selected words by features importance. This is what we got : 
 
-[insert image]
+![](gun_words_feat_importances_mdpi.png)
 
-even though the results are not very significative, we may be seing some pattern emerging. **Talk about state** and words like '**help**'. 
+Es expected, we see words related to **gun shootings** in general : 
+- gun, gunfire, guns, shooting, mass, etc, of course  **victims**
+And also words related to the **time or place** of the event :
+- school, week, wednesday, las, vegas, el, paso
+But we also wee words related to **law and regulation** :
+- law, enforcement, illegal, congress
+
+
 
 <h1 style="color: #990000;">What shootings generated the most reaction?</h1>
 
