@@ -27,9 +27,9 @@
  </style>
 </head>
 
-Gun control is one of the most controversial political topics in the United States. Being one of the world’s most liberal countries in the world, freedom one of its core values. But gun ownership and the need for regulation can seem incompatible at times.
+Gun control is one of the most controversial political topics in the United States. Being one of the world’s most liberal countries in the world, freedom one of its core values. But some could say: **“My freedom stops when that of others begins”**. And indeed, the US are regularly torn apart by mass shootings. Gun ownership and the need for regulation can seem incompatible at times. 
 
-**How is this political debate linked to the occurrences of mass shootings? This is what we intend to find out.**
+**How is this political debate linked to the occurrences of mass shootings? This is what we intend to find out.** This could help us understand the underlying mechanisms of this societal problem, and provide us with tools to help predict future controversy on the matter.
 
 Analyzing quotes emanating from American newspapers in the [Quotebank dataset](https://quotebank.dlab.tools) combined with [additional data](https://www.motherjones.com/politics/2012/12/mass-shootings-mother-jones-full-data/) will help us study how these tragic events influence the media coverage and the political debate. 
 
@@ -61,7 +61,7 @@ Es expected, we see words related to **gun shootings** in general :
 And also words related to the **time or place** of the event :
 - school, week, wednesday, las, vegas, el, paso
 But we also wee words related to **law and regulation** :
-- law, enforcement, illegal, congress
+- law, enforcement, illegal, congress, democrat
 
 
 
@@ -102,8 +102,7 @@ Further analysis has been performed in order to see whether there was a correlat
 
 <h1 style="color: #990000;">Conclusion</h1>
 
-Margaux.
-
+With our analysis, we have given a quantitative overview of the **political debate over firearms and gun control in the US**. We have shown that **talk on the matter is related to occurences of mass shootings**, but also that the mediatic reaction for a given shooting is **not proportional to the number of victims**. Our word occurences analysis confirmed our intuition that after a shooting has happened, quotes about it don't only focus on the nature of the event (gun shooting, victims where and when) but also **engages political and legal questions**. On this matter, we saw that public speaking on the matter comprises quite equally Democrats and Republicans. However, even though the subject of the debate is the same, their opinions on the matter may well not be the same ! This may be a good avenue for further inquiries ! 
 ----
 Thank you for your interest!
 The Cle(ment)Ze(wei)Ma(rgaux)Th(omas) team
