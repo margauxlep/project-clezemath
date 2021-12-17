@@ -27,17 +27,15 @@
  </style>
 </head>
 
-<div style="center">
-<img src="guns_comic.gif" />
-</div>
-
 Gun control is one of the most controversial political topics in the United States. Being one of the world’s most liberal countries in the world, freedom one of its core values. But gun ownership and the need for regulation can seem incompatible at times.
 
 **How is this political debate linked to the occurrences of mass shootings? This is what we intend to find out.**
 
 Analyzing quotes emanating from American newspapers in the [Quotebank dataset](https://quotebank.dlab.tools) combined with [additional data](https://www.motherjones.com/politics/2012/12/mass-shootings-mother-jones-full-data/) will help us study how these tragic events influence the media coverage and the political debate. 
 
-![](deco1.jpg)
+<div align="center">
+<img src="guns_comic.gif" />
+</div>
 
 <h1 style="color: #990000;">Are quotes about guns related to the occurence of mass shootings?</h1>
 
@@ -51,7 +49,8 @@ The plot seems to make it clear that there is a correlation between the occurenc
 
 <h1 style="color: #990000;">What words were used the most after the shootings?</h1>
 
-![](deco2.jpg)
+
+![](deco1.jpg)
 
 We tried a machine learning approach to isolate the words that were the most related to the mass shootings. Using random forests, we selected words by features importance. This is what we got : 
 
@@ -85,3 +84,4 @@ However, these results do give an insight on some things that can trigger a larg
 
 Clement.
 
+![](deco2.jpg)
