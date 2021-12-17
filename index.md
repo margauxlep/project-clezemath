@@ -66,7 +66,12 @@ Some shootings made it very clear, the number of fatalities is not the only fact
 
 ![](features.jpg)
 
-We ran correlation tests between the features and the reaction score. None showed to be significant (p-values > 0.05). But we have too little data: for example, their are only three School shootings, so it is hard to really find a pattern. The take-home message is simply that there are many factors that influence the amount of reaction a shooting generates.
+We ran correlation tests between the features and the reaction score. None showed to be significant (p-values > 0.05). But we have too little data: for example, their are only three School shootings, so it is hard to really find a pattern. The take-home message is simply that there are many factors that influence the amount of reaction a shooting generates, and that an exact correlation can not be found partly because of the lack of data and the lack of correlation simply.
+
+The shooting situation that should generate the most reaction: shooting in airport with a high number of fatalities, shooter is an Asian male with a legal automatic weapon.
+The shooting situation that should generate the least reaction: shooting in workplace with a small number of fatalities, shooter is an white female with an illegal  weapon.
+
+Disclaimer: these predictions are probably false. Indeed, features influence the reaction probably in their combination and not separetely. However, they do give an insight on some things that can trigger a larger reaction.
 
 <h1 style="color: #990000;">Who speaks the most about guns?</h1>
 
