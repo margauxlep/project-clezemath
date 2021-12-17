@@ -73,12 +73,12 @@ Some shootings made it very clear, **the number of fatalities is not the only fa
 
 We ran **correlation tests** between the features and the reaction score. Very few showed to be significant (p-values were mostly larger than 0.05). But we have little data: for example, their are only three School shootings, so it is hard to find a pattern. The take-home message is simply that there are many factors that influence the amount of reaction a shooting generates, and that an exact correlation can not be found partly because of the lack of data and the lack of correlation simply.
 
-The **shooting situation that should generate the most reaction**: shooting in airport with a high number of fatalities, shooter is an Asian male with a legal automatic weapon.
-The **shooting situation that should generate the least reaction**: shooting in workplace with a small number of fatalities, shooter is an white female with an illegal  weapon.
+The **shooting situation that should generate the most reaction**: shooting in airport with a high number of fatalities, shooter is an Asian male with a legal automatic weapon.<br>
+The **shooting situation that should generate the least reaction**: shooting in workplace with a small number of fatalities, shooter is a white female with an illegal  weapon.
 
-Disclaimer: these predictions are probably incorrect. Indeed, there are probably correlations between the features as well, and they might be combinations of features that trigger large reactions, rather than the sum of individual influences. For example, the fact that the reaction score is on average higher for male shooters does not directly mean that the media is even taking the gender of the shooter into account. Their might be a correlation between the gender and other features, such as the number of fatalities (male shooters generating more fatalities on average).
+Disclaimer: these predictions are probably incorrect. Indeed, there are probably correlations between the features as well, and it might be that it is the combination of features that trigger large reactions, rather than the sum of individual influences. For example, the fact that the reaction score is on average higher for male shooters does not mean that the media is taking the gender of the shooter into account. Although there might be a link between the media's interest and the gender of the shooter, there might also be a correlation between the gender and other features, such as the number of fatalities (male shooters generating more fatalities on average).
 
-However, these results do give an insight on some things that can trigger a larger reaction.
+However, these results still give an insight on some things that can trigger a larger reaction.
 
 <h1 style="color: #990000;">Who speaks the most about guns?</h1>
 
