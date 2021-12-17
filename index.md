@@ -27,7 +27,7 @@
  </style>
 </head>
 
-HEY Gun control is one of the most controversial political topics in the United States. Being one of the world’s most liberal countries in the world, freedom one of its core values. But gun ownership and the need for regulation can seem incompatible at times.
+Gun control is one of the most controversial political topics in the United States. Being one of the world’s most liberal countries in the world, freedom one of its core values. But gun ownership and the need for regulation can seem incompatible at times.
 
 **How is this political debate linked to the occurrences of mass shootings? This is what we intend to find out.**
 
