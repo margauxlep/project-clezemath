@@ -66,14 +66,3 @@ List of features and show plots about average reaction score by feature
 
 Clement.
 
-----
-
-## More on our methods : 
-
-## How we selected the quotes
-Firstly, we filtered the Quotebank dataset through the key words "gun", "shooting" and "firearm".
-Once we had noticed that many quotations containing these key words were still unrelated to our topics, we decided to apply a supervised learning method to remove them from our analysis. We manually classified and labelled 1500 quotes to train the chosen Bert model, which was used later on for the target prediction.
-
-## Data used
-As our goal was to analyse the relationship between mass shootings and _ _talk_ _ about mass shootings we had to use two different datasets. For the shootings, we used the **"Mother Jone's" dataset**, that we got from https://data.world/awram/us-mass-shootings. This dataset gave us basic information (e.g. date, number of fatalities) about each shooting that occured in the USA between 2015 and 2020, adding also some interesting features such as location, age and gender of the shooter, etc. Our other source of data was the **Quotebank data set** [INSERT REF], consisting of over 170 mio of quotes emanating from american newspapers. We focused our research on the time lapse between 2015 and 2020.
-
