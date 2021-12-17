@@ -27,6 +27,10 @@
  </style>
 </head>
 
+<div style="center">
+<img src="guns_comic.gif" />
+</div>
+
 Gun control is one of the most controversial political topics in the United States. Being one of the world’s most liberal countries in the world, freedom one of its core values. But gun ownership and the need for regulation can seem incompatible at times.
 
 **How is this political debate linked to the occurrences of mass shootings? This is what we intend to find out.**
@@ -44,8 +48,6 @@ Between 2015 and 2020, 48 mass shootings were registered, killing 396 people and
 This plot shows us several interesting things. For instance, some clear peaks in quotes (in blue) seem to follow after most of the shootings (in red). the largest peak in fatalities happens around October 2017 and is followed by the second largest peak in quotes talking about guns.
 
 The plot seems to make it clear that there is a correlation between the occurences of mass shootings and the number of quotes in the following days. To confirm our intuition, we performed a Pearson correlation test between the number of quotes on a given day and the number of days since the last shooting. This revealed a highly significant (p-value << 0.05) negative correlation between the number of quotes on a given day and the days since the last shooting. This was the expected result: **the more days since the last shooting, the rarer the quotes talking about guns and firearms**.
-
-![](guns_comic.gif)
 
 <h1 style="color: #990000;">What words were used the most after the shootings?</h1>
 
