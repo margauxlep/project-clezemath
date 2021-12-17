@@ -1,14 +1,9 @@
 <head>
- 
- <title>ADAAA</title>
-
  <style>
     
   .main-content {max-width: 100%;}
   .large_content {max-width:100%;}
-  
-  h3 {color: #8a0000;}
- 
+   
  </style>
 </head>
 
@@ -24,10 +19,9 @@ Analyzing quotes emanating from American newspapers in the Quotebank dataset com
 
 ## Media coverage: are quotes about guns related to the occurence of mass shooting?
 
-We selectd qotes....LINK
-Between 2015 and 2020, 48 shootings were registered, killing ??? people and injuring ???. In the same timeframe, we collected ??? quotes about guns and shootings in general. The first thing we wanted to see is if the occurences of these quotes was linked to the events.
+Between 2015 and 2020, 48 shootings were registered, killing ??? people and injuring ???. In the same timeframe, we collected ??? quotes (link) about guns and shootings in general. The first thing we wanted to see is if the occurences of these quotes was linked to the events.
 
-<iframe src="time_fatalities.html" width="100%" height=700 frameBorder="0"></iframe>
+<iframe src="time_fatalities.html" width="100%" height=600 frameBorder="0"></iframe>
 
 insert correlation information
 
