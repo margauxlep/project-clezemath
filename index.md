@@ -8,7 +8,7 @@
   color: #ffffff;
   text-align: center;
   background-color: #870000;
-  background-image: linear-gradient(120deg, #870000, #912f2f);
+  background-image: linear-gradient(120deg, #870000, #d14545);
 
   @include large {
     padding: 5rem 6rem;
