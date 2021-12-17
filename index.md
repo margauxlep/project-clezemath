@@ -33,11 +33,14 @@ Gun control is one of the most controversial political topics in the United Stat
 
 Analyzing quotes emanating from American newspapers in the [Quotebank dataset](https://quotebank.dlab.tools) combined with [additional data](https://www.motherjones.com/politics/2012/12/mass-shootings-mother-jones-full-data/) will help us study how these tragic events influence the media coverage and the political debate. 
 
+
 <div align="center">
 <img src="guns_comic.gif" />
 </div>
 
 <h1 style="color: #990000;">Are quotes about guns related to the occurence of mass shootings?</h1>
+
+> This sickening and senseless gun violence must stop. (Bernie Sanders)
 
 Between 2015 and 2020, **48 mass shootings** were registered, killing 396 people and injuring 895. In the same timeframe, we collected more than **79'000 quotes** from American news that were about guns and shootings in general (LINK to how we collected these quotes). The first thing we wanted to see is if the occurences of these quotes was linked to the events.
 
@@ -102,7 +105,9 @@ Further analysis has been performed in order to see whether there was a correlat
 
 <h1 style="color: #990000;">Conclusion</h1>
 
+
 With our analysis, we have given a quantitative overview of the **political debate over firearms and gun control in the US**. We have shown that **talk on the matter is related to occurences of mass shootings**, but also that the mediatic reaction for a given shooting is **not proportional to the number of victims**. Our word occurences analysis confirmed our intuition that after a shooting has happened, quotes about it don't only focus on the nature of the event (gun shooting, victims where and when) but also **engages political and legal questions**. On this matter, we saw that public speaking on the matter comprises quite equally Democrats and Republicans. However, even though the subject of the debate is the same, their opinions on the matter may well not be the same ! This may be a good avenue for further inquiries ! 
+
 ----
 Thank you for your interest!
 The Cle(ment)Ze(wei)Ma(rgaux)Th(omas) team
