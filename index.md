@@ -39,13 +39,13 @@ Analyzing quotes emanating from American newspapers in the [Quotebank dataset](h
 
 <h1 style="color: #990000;">Are quotes about guns related to the occurence of mass shootings?</h1>
 
-Between 2015 and 2020, 48 mass shootings were registered, killing 396 people and injuring 895. In the same timeframe, we collected more than 79'000 quotes from American news that were about guns and shootings in general (LINK to how we collected these quotes). The first thing we wanted to see is if the occurences of these quotes was linked to the events.
+Between 2015 and 2020, **48 mass shootings** were registered, killing 396 people and injuring 895. In the same timeframe, we collected more than **79'000 quotes** from American news that were about guns and shootings in general (LINK to how we collected these quotes). The first thing we wanted to see is if the occurences of these quotes was linked to the events.
 
 <iframe src="time_fatalities.html" width="100%" height=620 frameBorder="0"></iframe>
 
-This plot shows us several interesting things. For instance, some clear peaks in quotes (in blue) seem to follow after most of the shootings (in red). the largest peak in fatalities happens around October 2017 and is followed by the second largest peak in quotes talking about guns.
+This plot shows us several interesting things. For instance, some **clear peaks in quotes seem to follow after most of the shootings**. The largest peak in fatalities happens around October 2017 and is followed by the second largest peak in quotes talking about guns.
 
-The plot seems to make it clear that there is a correlation between the occurences of mass shootings and the number of quotes in the following days. To confirm our intuition, we performed a Pearson correlation test between the number of quotes on a given day and the number of days since the last shooting. This revealed a highly significant (p-value << 0.05) negative correlation between the number of quotes on a given day and the days since the last shooting. This was the expected result: **the more days since the last shooting, the rarer the quotes talking about guns and firearms**.
+The plot seems to make it clear that there is a correlation between the occurences of mass shootings and the number of quotes in the following days. **To confirm our intuition, we performed a Pearson correlation test** between the number of quotes on a given day and the number of days since the last shooting. This revealed a highly significant (p-value << 0.05) negative correlation between the number of quotes on a given day and the days since the last shooting. This was the expected result: **the more days since the last shooting, the rarer the quotes talking about guns and firearms**.
 
 <h1 style="color: #990000;">What words were used the most after the shootings?</h1>
 
