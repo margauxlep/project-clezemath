@@ -61,9 +61,11 @@ We tried a machine learning approach to isolate the words that were the most rel
 
 Es expected, we see words related to **gun shootings** in general : 
 - gun, gunfire, guns, shooting, mass, etc, of course  **victims**
+
 And also words related to the **time or place** of the event :
 - school, week, wednesday, las, vegas, el, paso
-But we also wee words related to **law and regulation** :
+
+But what it interesting is that we also wee words related to **law and regulation** :
 - law, enforcement, illegal, congress, democrat
 
 
