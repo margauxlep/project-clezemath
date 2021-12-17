@@ -56,30 +56,5 @@ Firstly, we filtered the Quotebank dataset through the key words "gun", "shootin
 Once we had noticed that many quotations containing these key words were still unrelated to our topics, we decided to apply a supervised learning method to remove them from our analysis. We manually classified and labelled 1500 quotes to train the chosen Bert model, which was used later on for the target prediction.
 
 ## Data used
-
-As our goal was to analyse the relationship between mass shootings and _ _talk_ _ about mass shootings we had to use two different datasets. For the shootings, we used the **"Mother Jone's" dataset**, that we got from https://data.world/awram/us-mass-shootings. This dataset gave us basic information (e.g. date, number of fatalities) about each shooting that occured in the USA between 2015 and 2020, adding also some interesting features such as location, age and gender of the shooter, etc. Our other source of data was the **Quotebank data set** [INSERT REF], consisting of over 170 mio of quotes emanating from american newspapers. We focused our research on the time lapse between 2015 and 2020. 
-
-## Media coverage : Do newspapers quote more people talking about firearms and gun violence after a mass shootings ? 
-
-Our first question was to see if we can spot an augmentation of quotes talking about firearms or gun violence in the days following a mass shooting. To this end, we subsetted all the quotes from the Quotebank data containing the **words 'gun', 'firearm', 'shoot', 'terrorist', 'terrorism'**. By plotting this subset together with the occurences of mass shootings, this is the **timeline** we get : 
-
-!INSERT timeline quotes/shootings
-
-## Zoom on 2018 : Influence of the number of fatalities on the count of quotes
-
-With the above plot, we can see that the most important peak of quotes seems to take place just after a shooting in early 2018. So let's zoom in a little !
-
-! INSERT timeline quotes/shootings 2018
-
-It seams that this particular event has made much more noise then the others and over a larger period of time. The fact that it was **certainly not the shooting with the most fatalities** ("only" 17, compared to 58 for the max) shows that the number of fatalities is clearly not the only parameter that influences the media coverage of the event as well as the amplitude of the discussion on gun control afterwards.
-
-**This makes us want to investigate further: what are the other factors that can explain these differences?** Some ideas: 
-- Location of the shooting (what state, but also what type of place: e.g. at a school, workplace...)
-- Wheather of not the weapon was bought legally
-- Age, gender and ethnicity of the shooter and/or the victims
-- The type of weapon that was used
-- etc.
-
-## What are the relevant features to predict "media coverage" ? 
-
+As our goal was to analyse the relationship between mass shootings and _ _talk_ _ about mass shootings we had to use two different datasets. For the shootings, we used the **"Mother Jone's" dataset**, that we got from https://data.world/awram/us-mass-shootings. This dataset gave us basic information (e.g. date, number of fatalities) about each shooting that occured in the USA between 2015 and 2020, adding also some interesting features such as location, age and gender of the shooter, etc. Our other source of data was the **Quotebank data set** [INSERT REF], consisting of over 170 mio of quotes emanating from american newspapers. We focused our research on the time lapse between 2015 and 2020.
 
