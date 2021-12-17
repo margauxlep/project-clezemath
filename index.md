@@ -47,6 +47,8 @@ The plot seems to make it clear that there is a correlation between the occurenc
 
 <h1 style="color: #990000;">What words were used the most after the shootings?</h1>
 
+![](deco1.jpg)
+
 We tried a machine learning approach to isolate the words that were the most related to the mass shootings. Using random forests, we selected words by features importance. This is what we got : 
 
 [insert image]
