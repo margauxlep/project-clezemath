@@ -3,6 +3,9 @@
 
 @import "{{ site.theme }}";
 
-.page_header{
-  backgroundcolor = red;
+.page-header{
+  color: blue;
+  text-align: center;
+  background-color: #8a0000;
+  background-image: linear-gradient(120deg, #610000, #8a0000);
 }
