@@ -7,7 +7,7 @@
   .main-content {max-width: 100%;}
   .large_content {max-width:100%;}
   
-  h2 {color: #8a0000;}
+  h3 {color: #8a0000;}
  
  </style>
 </head>
