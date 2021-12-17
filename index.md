@@ -6,6 +6,8 @@
     
   .main-content {max-width: 100%;}
   .large_content {max-width:100%;}
+  
+  h1 {color: #8a0000;}
  
  </style>
 </head>
