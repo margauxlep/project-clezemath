@@ -42,7 +42,9 @@ Analyzing quotes emanating from American newspapers in the [Quotebank dataset](h
 
 > This sickening and senseless gun violence must stop. (Bernie Sanders)
 
-Between 2015 and 2020, **48 mass shootings** were registered, killing 396 people and injuring 895. In the same timeframe, we collected more than **79'000 quotes** from American news that were about guns and shootings in general (LINK to how we collected these quotes). The first thing we wanted to see is if the occurences of these quotes was linked to the events.
+Between 2015 and 2020, **48 mass shootings** were registered, killing 396 people and injuring 895. In the same timeframe, we collected more than **79'000 quotes** from American news that were about guns and shootings in general [^1]. The first thing we wanted to see is if the occurences of these quotes was linked to the events.
+
+[^1]: First we selected these quotes using three keywords: "gun", "shooting", "firearm" (quotes needed to contain at least one of the three in order to be selected). Once we had noticed that many quotations containing these key words were still unrelated to our topics, we decided to apply a supervised learning method to remove them from our analysis. We manually classified and labelled 1500 quotes to train the chosen Bert model (taken from Transformers library), which was used later on for the target prediction.
 
 <iframe src="time_fatalities.html" width="100%" height=620 frameBorder="0"></iframe>
 
@@ -119,8 +121,10 @@ With our analysis, we have given a quantitative overview of the **political deba
 
 ![](deco2.jpg)
 
+
 ----
-Thank you for your interest!
+
+## Thank you for your interest!
 The Cle(ment)Ze(wei)Ma(rgaux)Th(omas) team
 <div align="center" style="width:70%">
 <img src="clezemath.jpg" />
