@@ -23,10 +23,6 @@
     padding: 2rem 1rem;
   }
 }
-  
-  h1 {
-    font-weight: normal;
-  }
    
  </style>
 </head>
@@ -49,8 +45,7 @@ This plot shows us several interesting things. For example, the largest peak in 
 
 The plot seems to make it clear that there is a correlation between the occurences of mass shootings and the number of quotes in the following days. To confirm our intuition, we performed a Pearson correlation test between the number of quotes in the subset and the number of days since the last shooting. This revealed a highly significant (p-value << 0.05) **negative correlation** between the number of quotes on a given day and the days since the last shooting. This was the expected result: **the more days since the last shooting, the rarer the quotes talking about guns and firearms**.
 
-<div class="page-header">HELLO WORLD</div>
-<h1>What words were used the most after the shootings?</h1>
+<h1 style="color: red;">What words were used the most after the shootings?</h1>
 
 We tried a machine learning approach to isolate the words that were the most related to the mass shootings. Using random forests, we selected words by features importance. This is what we got : 
 
@@ -58,16 +53,16 @@ We tried a machine learning approach to isolate the words that were the most rel
 
 even though the results are not very significative, we may be seing some pattern emerging. **Talk about state** and words like '**help**'. 
 
-## What shootings generated the most reaction?
+<h1 style="color: red;">What shootings generated the most reaction?</h1>
 
 The following map shows all 48 shootings by location. The larger the circle, the larger the corresponding media outrage.
 <iframe src="map.html" width="100%" height=500 frameBorder="0"></iframe>
 
-## What features are likely to influence the reaction?
+<h1 style="color: red;">What features are likely to influence the reaction?</h1>
 
 List of features and show plots about average reaction score by feature
 
-## Who speaks the most about guns?
+<h1 style="color: red;">Who speaks the most about guns?</h1>
 
 Clement.
 
