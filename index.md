@@ -90,7 +90,7 @@ The following map shows all 48 shootings by location. **The larger the circle, t
 
 Some shootings made it very clear, **the number of fatalities is not the only factor that influences the amount of reaction generated** by a shooting. Indeed, the most influential shooting according to our reaction score had only 3 fatalities. Differences like the location of the shooting (e.g. School, Religious place, Workplace) and the weapon type can influence the following media outrage, covering and debate.
 
-<div align="center" style="width:80%, margin-left: auto; margin-right: auto;">
+<div align="center" style="width:70%, margin-left: auto; margin-right: auto;">
 <img src="features.jpg" />
 </div>
 
