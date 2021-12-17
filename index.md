@@ -59,7 +59,9 @@ The plot seems to make it clear that there is a correlation between the occurenc
 
 We tried a machine learning approach to isolate the words that were the most related to the mass shootings. Using random forests, we selected words by features importance. This is what we got : 
 
-![](gun_words_feat_importances_mdpi.png)
+<div align="center" style="width:80%">
+<img src="gun_words_feat_importances_mdpi.png" />
+</div>
 
 Es expected, we see words related to **gun shootings** in general : 
 - gun, gunfire, guns, shooting, mass, etc, of course  **victims**
@@ -88,7 +90,9 @@ The following map shows all 48 shootings by location. **The larger the circle, t
 
 Some shootings made it very clear, **the number of fatalities is not the only factor that influences the amount of reaction generated** by a shooting. Indeed, the most influential shooting according to our reaction score had only 3 fatalities. Differences like the location of the shooting (e.g. School, Religious place, Workplace) and the weapon type can influence the following media outrage, covering and debate.
 
-![](features.jpg)
+<div align="center" style="width:80%">
+<img src="features.jpg" />
+</div>
 
 We ran **correlation tests** between the features and the reaction score. Very few showed to be significant (p-values were mostly larger than 0.05). But we have little data: for example, their are only three School shootings, so it is hard to find a pattern. The take-home message is simply that there are many factors that influence the amount of reaction a shooting generates, and that an exact correlation can not be found partly because of the lack of data and the lack of correlation simply.
 
