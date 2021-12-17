@@ -3,6 +3,25 @@
     
   .main-content {max-width: 100%;}
   .large_content {max-width:100%;}
+  
+  .page-header {
+  color: #912f2f;
+  text-align: center;
+  background-color: #870000;
+  background-image: linear-gradient(120deg, #870000, #912f2f);
+
+  @include large {
+    padding: 5rem 6rem;
+  }
+
+  @include medium {
+    padding: 3rem 4rem;
+  }
+
+  @include small {
+    padding: 2rem 1rem;
+  }
+}
    
  </style>
 </head>
