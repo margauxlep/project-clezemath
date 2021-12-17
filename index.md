@@ -93,6 +93,6 @@ Margaux.
 ----
 Thank you for your interest!
 The Clezemath team
-<div align="center" style="width:90%">
+<div align="center" style="width:70%">
 <img src="clezemath.jpg" />
 </div>
