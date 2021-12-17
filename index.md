@@ -85,3 +85,14 @@ However, these results still give an insight on some things that can trigger a l
 Clement.
 
 ![](deco2.jpg)
+
+<h1 style="color: #990000;">Conclusion</h1>
+
+Margaux.
+
+----
+Thank you for your interest!
+The Clezemath team
+<div align="center" style="width:90%">
+<img src="clezemath.jpg" />
+</div>
