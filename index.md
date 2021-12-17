@@ -35,6 +35,8 @@ Gun control is one of the most controversial political topics in the United Stat
 
 Analyzing quotes emanating from American newspapers in the [Quotebank dataset](https://quotebank.dlab.tools) combined with [additional data](https://www.motherjones.com/politics/2012/12/mass-shootings-mother-jones-full-data/) will help us study how these tragic events influence the media coverage and the political debate. 
 
+![](deco1.jpg)
+
 <h1 style="color: #990000;">Are quotes about guns related to the occurence of mass shootings?</h1>
 
 Between 2015 and 2020, 48 mass shootings were registered, killing 396 people and injuring 895. In the same timeframe, we collected more than 79'000 quotes from American news that were about guns and shootings in general (LINK to how we collected these quotes). The first thing we wanted to see is if the occurences of these quotes was linked to the events.
@@ -47,7 +49,7 @@ The plot seems to make it clear that there is a correlation between the occurenc
 
 <h1 style="color: #990000;">What words were used the most after the shootings?</h1>
 
-![](deco1.jpg)
+![](deco2.jpg)
 
 We tried a machine learning approach to isolate the words that were the most related to the mass shootings. Using random forests, we selected words by features importance. This is what we got : 
 
