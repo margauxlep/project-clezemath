@@ -12,11 +12,13 @@
   background-size: 100%;
   
   @include large {
-    padding: 5rem 6rem;
+    padding: 0rem 0rem;
+    /*padding: 5rem 6rem;*/
   }
 
   @include medium {
-    padding: 3rem 4rem;
+    padding: 0rem 0rem;
+    /*padding: 3rem 4rem;*/
   }
 
   @include small {
