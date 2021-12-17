@@ -5,7 +5,7 @@
   .large_content {max-width:100%;}
   
   .page-header {
-  color: #912f2f;
+  color: #ffffff;
   text-align: center;
   background-color: #870000;
   background-image: linear-gradient(120deg, #870000, #912f2f);
