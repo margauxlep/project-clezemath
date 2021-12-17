@@ -71,7 +71,9 @@ We ran correlation tests between the features and the reaction score. None showe
 The shooting situation that should generate the most reaction: shooting in airport with a high number of fatalities, shooter is an Asian male with a legal automatic weapon.
 The shooting situation that should generate the least reaction: shooting in workplace with a small number of fatalities, shooter is an white female with an illegal  weapon.
 
-Disclaimer: these predictions are probably false. Indeed, features influence the reaction probably in their combination and not separetely. However, they do give an insight on some things that can trigger a larger reaction.
+Disclaimer: these predictions are probably incorrect. Indeed, there are probably correlations between the features as well, and they might be combinations of features that trigger large reactions, rather than the sum of individual influences. For example, the fact that the reaction score is on average higher for male shooters does not directly mean that the media is even taking the gender of the shooter into account. Their might be a correlation between the gender and other features, such as the number of fatalities (male shooters generating more fatalities on average).
+
+However, these results do give an insight on some things that can trigger a larger reaction.
 
 <h1 style="color: #990000;">Who speaks the most about guns?</h1>
 
