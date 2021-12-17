@@ -23,6 +23,11 @@
     padding: 2rem 1rem;
   }
 }
+  
+  h1 {
+    font-weight: normal;
+    color: #870000;
+  }
    
  </style>
 </head>
