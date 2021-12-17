@@ -9,6 +9,7 @@
   text-align: center;
   background-color: #870000;
   background-image: url("background.jpg");
+  background-size: cover;
 
   @include large {
     padding: 5rem 6rem;
