@@ -88,6 +88,9 @@ In this section we will provide insights about profiles of speakers. As we did b
 <img src="Party.png" /><img src="Gender.png" />
 </div>
 
+We can observe that women are not represented as much as men after shootings. In fact, a huge part of the debate is "invaded" by men. As a result, the debate seems to split equally between democrats and republicans. The media sphere seems to be equally occupied by these two parties after shootings.
+Further analysis has been performed in order to see whether there was a correlation between reaction score and the share of quotes of a specific party on single shootings. It unfortunately turned out to be irrelevant.
+
 ![](deco2.jpg)
 
 <h1 style="color: #990000;">Conclusion</h1>
@@ -96,7 +99,7 @@ Margaux.
 
 ----
 Thank you for your interest!
-The Clezemath team
+The Cle(ment)Ze(wei)Ma(rgaux)Th(omas) team
 <div align="center" style="width:70%">
 <img src="clezemath.jpg" />
 </div>
