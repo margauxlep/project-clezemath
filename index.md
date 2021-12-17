@@ -23,8 +23,7 @@ Between 2015 and 2020, 48 shootings were registered, killing 396 people and inju
 
 This plot shows us several interesting things. For example, the largest peak in fatalities happens around october 2017. It is followed by the second largest peak in quotes talking about guns. We can also see that the peak of quotes is generally maximal two days after the shooting.
 
-### Correlation between mass shootings and number of quotes
- To show that there is an association between the occurences of mass shootings (in orange) and the number of quotes in our subset (in blue), we performed a Pearson correlation test between the number of quotes in the subset and the number of days since the last shooting. This revealed a highly significant (p-value << 0.05) **negative correlation** between the number of quotes on a given day and the days since the last shooting. This was the expected result: **the more days since the last shooting, the rarer the quotes talking about guns and firearms**.
+The plot seems to make it clear that there is a correlation between the occurences of mass shootings and the number of quotes in the following days. To confirm our intuition, we performed a Pearson correlation test between the number of quotes in the subset and the number of days since the last shooting. This revealed a highly significant (p-value << 0.05) **negative correlation** between the number of quotes on a given day and the days since the last shooting. This was the expected result: **the more days since the last shooting, the rarer the quotes talking about guns and firearms**.
 
 ## What words were used the most after the shootings?
 
