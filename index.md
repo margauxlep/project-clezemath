@@ -94,6 +94,11 @@ However, these results still give an insight on some things that can trigger a l
 
 <h1 style="color: #990000;">Who speaks the most about guns?</h1>
 
+> Shocking that The Times believes a known or suspected terrorist should be able to legally purchase firearms and explosives. (Dianne Feinstein)
+> I'm a strong Second Amendment supporter as well, but I believe in responsible gun ownership (Charles Brunner)!
+
+
+
 In this section we will provide insights about profiles of speakers. As we did before, we will consider only quotes that are linked with the gun debate 10 days following each shooting recorded in the [additional data](https://www.motherjones.com/politics/2012/12/mass-shootings-mother-jones-full-data/). We focused on the 2 main following categories : gender and political party. As we wanted to highlight the polarization of the debate, we kept categories binary. Namely, looking only at male and female genders and Republican and Democratic parties.
 
 <div align="center">
